@@ -22,6 +22,11 @@ plugins {
 }
 
 
+dependencies {
+    implementation("javax")
+}
+
+
 
 group = properties("pluginGroup")
 version = properties("pluginVersion")
