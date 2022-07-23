@@ -2,3 +2,4 @@
 .idea
 .qodana
 build
+src/main/java/com/github/huckleberrycalfinn/firstintellijplugin/listeners/PluginAppPersistence.java

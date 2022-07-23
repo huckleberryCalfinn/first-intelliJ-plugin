@@ -1,11 +1,17 @@
 package com.github.huckleberrycalfinn.firstintellijplugin.listeners;
-import java.awt.ActiveEvent;
-import java.util.EventListener
-public class PluginListener implements ActionListener<E eventType, R reasultType> {
-    public PluginListener(){
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.EventListener;
+import java.util.function.Consumer;
+
+
+public class PluginListener implements ActionListener{
+
+    @Override
+    public void actionPerformed(ActionEvent event){
 
     }
 
-    @Override
-    public ActionPerformed
+
 }
+
